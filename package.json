@@ -1,0 +1,8 @@
+{
+  "name": "desktop-to-mobile-mapping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ethical-jobs/desktop-to-mobile-mapping.git",
+  "author": "Igor Nadj <igor@ethicaljobs.com.au>",
+  "license": "MIT"
+}

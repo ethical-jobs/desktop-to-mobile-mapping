@@ -1,0 +1,10 @@
+
+
+module.exports = {
+    location_slug_map: location_slug_map,
+    location_vocab_slug_map: location_vocab_slug_map,
+    location_search_param_map: location_search_param_map,
+    work_type_slug_map: work_type_slug_map,
+    classification_slug_map: classification_slug_map,
+    classification_vocab_slug_map: classification_vocab_slug_map,
+}

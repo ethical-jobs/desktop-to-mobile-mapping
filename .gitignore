@@ -1,0 +1,7 @@
+build/res/__target__
+build/res/res.polyfills-stripped.js
+
+
+.idea
+
+node_modules

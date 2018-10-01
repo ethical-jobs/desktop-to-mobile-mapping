@@ -1,0 +1,25 @@
+const dict = (object) => {
+	if (!object[Symbol.iterator]) {
+		object[Symbol.iterator] = function* () {
+			const properties = Object.keys(object);
+
+			for (let prop of properties) {
+				yield this[prop];
+			}
+		};
+	}
+
+	return object;
+};
+
+const __in__ = (item, object) => {
+	for (var key of object) {
+		if (object[key] === item) {
+			return true;
+		}
+	}
+	return false;
+}
+
+const list = (array) => array;
+
